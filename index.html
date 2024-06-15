@@ -9,9 +9,34 @@
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
   </head>
   <body>
-    <main><div class="centerbox">
-        <h1>To build everything we must first start with nothing...</h1>
-        <h2>thereald1j1t@gmail.com</h2>
-    </main></div>
+    <header>
+      <button id="sidebar-toggle" class="sidebar-toggle">☰</button>
+    </header>
+    <main>
+      <div id="dualscreen">
+        <div class="slide-out" id="sidebar">
+          <img id="title-icon" src="./assets/sidebar/d1j1t.png"></img>
+          <div class="sidebuttons">
+            <button class="sidebutton active" id="overview-btn">󰈈 Overview</button>
+            <button class="sidebutton" id="projects-btn">󰉋 Projects</button>
+            <button class="sidebutton" id="programming-btn">󰯁 Programming</button>
+            <button class="sidebutton" id="art-btn">󰋩 Art</button>
+            <button class="sidebutton" id="design-btn">󰉼 Design</button>
+            <button class="sidebutton" id="skills-btn">󰀄 Skills</button>
+            <button class="sidebutton" id="contact-btn">󰏲 Contact</button>
+          </div>
+          <div class="bottombit">This site is designed, built, and written by D1j1t</div>
+        </div>
+        <div class="mainbox" id="mainbox">
+          <div class="overview">
+            <img src="./assets/overview/1.jpg" class="overviewimg"></img>
+            <img src="./assets/overview/2.jpg" class="overviewimg"></img>
+            <img src="./assets/overview/3.jpg" class="overviewimg"></img>
+            <img src="./assets/overview/4.jpg" class="overviewimg"></img>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./script.js"></script>
   </body>
 </html>
