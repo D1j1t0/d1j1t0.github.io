@@ -325,6 +325,42 @@ a:hover {
   margin: 16px auto;
 }
 
+.projbox {
+  box-shadow: -4px -4px 10px #fff2, 4px 4px 10px #0002;
+  border: 4px solid var(--bg3);
+  background-color: var(--bg3);
+  border-radius: 14px;
+  padding: 6px;
+  width: 540px;
+  height: 166px;
+  margin: 16px auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.projbox img {
+  padding: 16px;
+}
+
+.projcont {
+  display: flex;
+  flex-direction: column;
+}
+
+.projcont p {
+  height: fit-content;
+  text-align: center;
+  background-color: #0000;
+}
+
+.projtitle {
+  font-weight: bold;
+  font-size: x-large;
+  height: fit-content;
+  text-align: center;
+  background-color: #0000;
+}
+
 .center-contact {
   font-size: 22px;
   text-align: center;
@@ -392,6 +428,16 @@ a:hover {
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 1080px) {
+
+  .projbox {
+    flex-direction: column;
+    width: auto;
+    height: auto;
+  }
+
+  .projbox img {
+    width: 90%;
+  }
 
   .artdiv {
     flex-direction: column;

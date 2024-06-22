@@ -50,6 +50,9 @@ document.addEventListener('DOMContentLoaded', function() {
       <div class="center-proj">
         <iframe class="itchbox" src="https://itch.io/embed/2741764?border_width=5&amp;bg_color=ff8426&amp;fg_color=7f0622&amp;link_color=7f0622&amp;border_color=7f0622" width="560" height="175" frameborder="0"><a href="https://d1j1t.itch.io/solo-mission">Solo Mission by D1j1t</a></iframe>
       </div>
+      <div class="center-proj">
+        <div class="projbox"><img src="./assets/projects/card.png"><div class="projcont"><p class="projtitle">Business Card</p><p>I have made 3D printed unique business cards using SVGs and Blender</p></div></div>
+      </div>
     `, this);
   });
 
