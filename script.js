@@ -55,6 +55,9 @@ document.addEventListener('DOMContentLoaded', function() {
       <div class="center-proj">
         <div class="projbox"><img src="./assets/projects/card.png"><div class="projcont"><p class="projtitle">Business Card</p><p>I have made 3D printed unique business cards using SVGs and Blender</p></div></div>
       </div>
+      <div class="center-proj">
+        <div class="projbox"><img src="https://raw.githubusercontent.com/D1j1t0/OmniShell-Branding/main/Icons/OmniShell%20Icon.svg"><div class="projcont"><a href="https://github.com/d1j1t0/omnishell" target="_blank" class="projtitle">Omnishell</a><p>I have made a CLI shell written in Python, this is an old project and my programming abilities are much better now.</p></div></div>
+      </div>
     `, this);
   });
 
