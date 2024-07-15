@@ -31,6 +31,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     buttons.forEach(btn => btn.classList.remove('active'));
     button.classList.add('active');
+    sidebar.classList.remove('slide-in');
+    sidebar.classList.add('slide-out');
   }
 
   document.getElementById('overview-btn').addEventListener('click', function() {
@@ -53,15 +55,6 @@ document.addEventListener('DOMContentLoaded', function() {
       <div class="center-proj">
         <div class="projbox"><img src="./assets/projects/card.png"><div class="projcont"><p class="projtitle">Business Card</p><p>I have made 3D printed unique business cards using SVGs and Blender</p></div></div>
       </div>
-    `, this);
-  });
-
-  document.getElementById('programming-btn').addEventListener('click', function() {
-    changeContent(`
-      <div class="titlediv"><p class="title">Things I've programmed!</p></div>
-      <p>W.I.P have some lorem ipsum: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio facilisis mauris sit amet massa vitae. Euismod nisi porta lorem mollis aliquam ut porttitor. Maecenas sed enim ut sem viverra aliquet eget sit. Mattis molestie a iaculis at erat pellentesque adipiscing commodo elit. Cursus mattis molestie a iaculis at erat. Enim neque volutpat ac tincidunt vitae semper quis lectus nulla. Tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Dignissim sodales ut eu sem integer vitae justo. Et leo duis ut diam quam nulla porttitor. Adipiscing vitae proin sagittis nisl rhoncus mattis. Dolor sed viverra ipsum nunc aliquet bibendum enim.
-
-In nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Aliquam nulla facilisi cras fermentum odio eu feugiat pretium nibh. Vitae et leo duis ut diam. Commodo nulla facilisi nullam vehicula. Laoreet suspendisse interdum consectetur libero id faucibus nisl. Lacus laoreet non curabitur gravida arcu ac tortor dignissim. Duis convallis convallis tellus id interdum velit laoreet. Et malesuada fames ac turpis egestas maecenas. Egestas sed tempus urna et pharetra. Lorem ipsum dolor sit amet consectetur adipiscing elit duis tristique. Faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Massa sapien faucibus et molestie ac feugiat sed. Sit amet aliquam id diam. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas. Vel eros donec ac odio tempor orci. Id neque aliquam vestibulum morbi. Quis vel eros donec ac odio tempor orci dapibus. Senectus et netus et malesuada fames ac turpis egestas maecenas.</p>
     `, this);
   });
 
@@ -95,13 +88,6 @@ In nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Aliq
           <img class="art" src="./assets/art/tearingituprnngl.jpg">
         </div>
       </div>
-    `, this);
-  });
-
-  document.getElementById('design-btn').addEventListener('click', function() {
-    changeContent(`
-      <div class="titlediv"><p class="title">Design work!</p></div>
-In nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Aliquam nulla facilisi cras fermentum odio eu feugiat pretium nibh. Vitae et leo duis ut diam. Commodo nulla facilisi nullam vehicula. Laoreet suspendisse interdum consectetur libero id faucibus nisl. Lacus laoreet non curabitur gravida arcu ac tortor dignissim. Duis convallis convallis tellus id interdum velit laoreet. Et malesuada fames ac turpis egestas maecenas. Egestas sed tempus urna et pharetra. Lorem ipsum dolor sit amet consectetur adipiscing elit duis tristique. Faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Massa sapien faucibus et molestie ac feugiat sed. Sit amet aliquam id diam. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas. Vel eros donec ac odio tempor orci. Id neque aliquam vestibulum morbi. Quis vel eros donec ac odio tempor orci dapibus. Senectus et netus et malesuada fames ac turpis egestas maecenas.</p>
     `, this);
   });
 
