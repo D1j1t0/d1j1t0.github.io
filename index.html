@@ -1,40 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>D1j1t's Place</title>
-    <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
-  </head>
-  <body>
-    <header>
-      <button id="sidebar-toggle" class="sidebar-toggle">☰</button>
-    </header>
-    <main>
-      <div id="dualscreen">
-        <div class="slide-out" id="sidebar">
-          <img id="title-icon" src="./assets/sidebar/d1j1t.png"></img>
-          <div class="sidebuttons">
-            <button class="sidebutton active" id="overview-btn">󰈈 Overview</button>
-            <button class="sidebutton" id="projects-btn">󰉋 Projects</button>
-            <button class="sidebutton" id="art-btn">󰋩 Art</button>
-            <button class="sidebutton" id="skills-btn">󰀄 Skills</button>
-            <button class="sidebutton" id="contact-btn">󰏲 Contact</button>
-          </div>
-          <div class="bottombit">This site is designed, built, and written by D1j1t</div>
-        </div>
-        <div class="mainbox" id="mainbox">
-          <div class="overview">
-            <img src="./assets/overview/1.jpg" class="overviewimg"></img>
-            <img src="./assets/overview/2.jpg" class="overviewimg"></img>
-            <img src="./assets/overview/3.jpg" class="overviewimg"></img>
-            <img src="./assets/overview/4.jpg" class="overviewimg"></img>
-          </div>
-        </div>
-      </div>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="titlebox">
+    </div>
+    <main id="main-content">
     </main>
-    <script src="./script.js"></script>
-  </body>
+    <footer>
+        <footer-bar>
+            <div class="footer-left">
+                <button class="tab" name="Introduction" icon="󰮧" japan="紹介" bgcol="#44aaff" >Home</button>
+            </div>
+            <div class="footer-center">
+                <button class="tab" name="Projects" icon="󰏗" japan="プロジェクト" bgcol="#66bb66" >Projects</button>
+                <button class="tab" name="Art" icon="󰿁" japan="芸術" bgcol="#ffaaaa" >Art</button>
+                <button class="tab" name="Skills" icon="󰅪" japan="スキル" bgcol="#ffaa44" >Skills</button>
+            </div>
+            <div class="footer-right">
+                <button class="tab" name="Contact" icon="󰍥" japan="接触" bgcol="#44bbaa" >Contact</button>
+            </div>
+        </footer-bar>
+    </footer>
+    <script src="script.js"></script>
+</body>
 </html>
